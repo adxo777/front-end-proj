@@ -1,0 +1,32 @@
+.navc {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 2rem;
+  transform: translateX(-50%);
+  top: 7rem;
+ 
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem 2rem;
+  backdrop-filter: blur(15px);
+  span{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: lightskyblue;
+    font-size: 1.1rem;
+  }
+  &:hover{
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .active {
+ 
+    filter:brightness(200%);
+  }
+  
+}
+
